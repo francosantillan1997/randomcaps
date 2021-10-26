@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/*fondo*/
+body {
+  background-color: #5ea4ca; }
+
+h1 {
+  text-align: center;
+  display: flex;
+  font-size: 70px;
+  letter-spacing: 30px;
+  color: #eeeeee;
+  font-family: 'Special Elite', cursive;
+  padding: 5px;
+  margin-left: 20%;
+  margin-top: 5px; }
+
+.titulo {
+  display: flex;
+  flex-direction: row;
+  width: 100%; }
+
+.logo {
+  width: 400px; }
+
+/*logos.redes*/
+.logosredes {
+  width: 20%;
+  margin-bottom: 5px;
+  margin-left: 10%;
+  display: flex; }
+
+/*subtitulos*/
+h2 {
+  color: white;
+  letter-spacing: 10px;
+  font-size: 50px;
+  margin: 10px;
+  display: inline-flex;
+  padding-top: 100px;
+  font-family: sans-serif;
+  padding-bottom: 50px; }
+
+/*lista-menu*/
+.menu__ul {
+  color: #eeeeee;
+  position: relative;
+  background-color: #03a9be; }
+
+.menu > ul > li > a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 20px; }
+
+.menu > ul > li:hover {
+  background-color: #0b5a68; }
+
+li {
+  margin: auto; }
+
+ul {
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  list-style: none;
+  padding: 20px; }
+
+/*pagina-quienes-somos*/
+.quienesSomos {
+  font-size: 40px;
+  color: rgba(255, 255, 255, 0.822); }
+
+.seccion-parrafo__texto {
+  padding: 70px;
+  margin: 10px;
+  color: floralwhite;
+  text-align: left;
+  text-decoration: none;
+  letter-spacing: 4px; }
+
+/*pagina-index*/
+.imagenes {
+  display: flex;
+  width: 100%; }
+
+.articulo {
+  display: flex;
+  margin: 3px;
+  width: 30%;
+  margin: 10px; }
+
+/*productos*/
+.producto {
+  margin: 10%; }
+
+/*pie-pagina*/
+.pieDePagina {
+  padding-top: 100px;
+  color: white;
+  word-spacing: 15px;
+  letter-spacing: 5px; }
+
+/*formulario-contacto*/
+.formulario {
+  background-color: #86c7e6;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  word-spacing: 5px;
+  text-align: center;
+  padding: 200px; }
+
+/*locales*/
+.tablaLocales {
+  display: flex;
+  padding: 50%; }
+
+/*contenedor padre*/
+.gorras {
+  border: 3px black solid; }
+
+/* ANIMACIONES*/
+.menu__ul {
+  background: linear-gradient(to bottom, #1cc6e4, #e3eaee); }
+
+.instagram:hover {
+  transform: rotate(180deg); }
+
+.facebook:hover {
+  transform: rotate(180deg); }
+
+.whatsapp:hover {
+  transform: rotate(180deg); }
+
+#carouselExampleCaptions {
+  margin: auto; }
+
+#carouselExampleCaptions {
+  margin: auto;
+  width: 90%; }

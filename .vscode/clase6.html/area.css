@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.padre{
+    width: 95%;
+    height: 300px;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 2fr 2fr 1fr;
+    grid-template-areas:
+    "rosa rosa rosa"
+    "rojo amarillo amarillo"
+    "rojo verde verde"
+    "azul azul azul";
+}
+.hijo{
+    border: solid 1px black;
+    padding: 5px;
+}
+.rosa{
+    background-color: pink;
+    grid-area: rosa;
+}
+.amarillo{
+    background-color: yellow;
+    grid-area: amarillo;
+}
+.verde{
+    background-color: green;
+    grid-area: verde;
+}
+.azul{
+    background-color: blue;
+    grid-area: azul;
+}
+.rojo{
+    background-color: red;
+    grid-area: rojo;
+}
